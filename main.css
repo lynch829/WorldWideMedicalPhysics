@@ -8,6 +8,7 @@ body {
   color: #2E3A38;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 62.5%;
+  max-width: 100%;
 }
 img {
   max-width: 100%;
@@ -16,12 +17,38 @@ img {
 /* Site */
 .site {
   font-size: 1.6em;
-  margin: 5% 10%;
+  margin: 2%;
 }
 
+/*Hero*/
+.hero img {
+  left: 50%;
+  position: fixed;
+  top: 0;
+  transform: translate(-50%, 0);
+}
+
+
+/*Main*/
+.main {
+  padding-top: 200px;
+  position: relative;
+}
+
+/* Navigation */
+.nav ul {
+  list-style-type: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.nav ul {
+  margin: 0 auto;
+  padding: 0;
+
+}
 
 /* Banner */
 .banner {
   background: url('images/banner_plan.jpg') no-repeat;
-  overflow: hidden;
 }
