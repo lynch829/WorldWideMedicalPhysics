@@ -21,11 +21,15 @@ img {
 }
 
 /*Hero*/
-.hero img {
-  left: 50%;
+.hero {
+  height: 200px;
   position: fixed;
   top: 0;
+  left: 50%;
+  margin: 0;
+  padding: 0;
   transform: translate(-50%, 0);
+  width: 100%;
 }
 
 /*Main*/
@@ -36,9 +40,20 @@ img {
 }
 
 /* Navigation */
+.nav {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+.nav-scrolled {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .nav ul {
   background-color: #006DBF;
   list-style-type: none;
+  margin: 0;
   padding: 0;
 }
 .nav li {
@@ -60,7 +75,9 @@ img {
 }
 
 /* Banner */
-
+.banner {
+  padding-top: 150px;
+}
 
 /*Services*/
 .services {
