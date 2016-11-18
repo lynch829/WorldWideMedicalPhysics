@@ -30,7 +30,7 @@ img {
 
 /*Main*/
 .main {
-  background: #fff;
+  background: #eee;
   margin-top: 200px;
   position: relative;
 }
@@ -53,7 +53,7 @@ img {
 }
 
 .nav a {
-  color: #fff;
+  color: #eee;
   display: block;
   padding: 5px 0;
   text-decoration: none;
@@ -64,8 +64,38 @@ img {
 
 /*Services*/
 .services {
-  margin: 0 2%;
+  margin-bottom: 10px;
 }
+.service-header h4{
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #eee;
+  margin-bottom: 0;
+  padding: 10px 0;
+}
+.service-list {
+  text-align: left;
+}
+.service-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.service-list li {
+  border-bottom: 1px solid #333;
+  padding: 10px;
+}
+.main-service {
+  background-color: #4d8dbd;
+  color: #eee;
+}
+span {
+  position: absolute;
+  right: 10px;
+}
+.more {
+  display: none;
+}
+
 
 /*Mission Statement*/
 .mission {
