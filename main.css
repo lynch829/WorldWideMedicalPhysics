@@ -64,6 +64,7 @@ img {
 
 /*Services*/
 .services {
+  color: #333;
   margin-bottom: 10px;
 }
 .service-header h4{
@@ -87,6 +88,7 @@ img {
 .main-service {
   background-color: #4d8dbd;
   color: #eee;
+  font-weight: bolder;
 }
 span {
   position: absolute;
