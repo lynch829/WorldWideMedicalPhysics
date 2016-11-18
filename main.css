@@ -2,6 +2,7 @@
 html {
   background-color: #fff;
   font-size: 16px;
+  text-align: center;
   -webkit-font-smoothing: antialiased;
 }
 body {
@@ -17,7 +18,6 @@ img {
 /* Site */
 .site {
   font-size: 1.6em;
-  margin: 2%;
 }
 
 /*Hero*/
@@ -37,18 +37,38 @@ img {
 
 /* Navigation */
 .nav ul {
+  background-color: #006DBF;
   list-style-type: none;
-  display: inline;
-  margin: 0;
   padding: 0;
 }
-.nav ul {
-  margin: 0 auto;
-  padding: 0;
+.nav li {
+  border-bottom: 1px solid #5d7baf;
+  padding: 5px 0;
+}
+.nav li:last-child{
+  border-bottom: none;
+}
+.nav ul li:hover {
+  background: #4d8dbd;
+}
 
+.nav a {
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Banner */
 .banner {
   background: url('images/banner_plan.jpg') no-repeat;
+  margin: 0 2%;
+}
+
+/*Services*/
+.services {
+  margin: 0 2%;
+}
+
+/*Mission Statement*/
+.mission {
+  margin: 0 2%;
 }
