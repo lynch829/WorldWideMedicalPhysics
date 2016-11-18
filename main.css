@@ -108,6 +108,10 @@ img {
   color: #eee;
   font-weight: bolder;
 }
+.service-item img {
+  height: 24px;
+  width: 24px;
+}
 span {
   position: absolute;
   right: 10px;
