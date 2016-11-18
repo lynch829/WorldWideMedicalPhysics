@@ -28,10 +28,10 @@ img {
   transform: translate(-50%, 0);
 }
 
-
 /*Main*/
 .main {
-  padding-top: 200px;
+  background: #fff;
+  margin-top: 200px;
   position: relative;
 }
 
@@ -60,10 +60,7 @@ img {
 }
 
 /* Banner */
-.banner {
-  background: url('images/banner_plan.jpg') no-repeat;
-  margin: 0 2%;
-}
+
 
 /*Services*/
 .services {
