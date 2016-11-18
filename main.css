@@ -143,3 +143,9 @@ span {
 .dev a {
   text-decoration: none;
 }
+
+
+/*Begin style for larger screens*/
+@media screen and (min-width: 451px) {
+  
+}
