@@ -41,6 +41,7 @@ img {
 
 /* Navigation */
 .nav {
+  box-shadow: 0 3px 10px #333;
   position: absolute;
   width: 100%;
   z-index: 100;
@@ -115,8 +116,14 @@ span {
   display: none;
 }
 
-
 /*Mission Statement*/
 .mission {
-  margin: 0 2%;
+  background: #4d8dbd;
+  border: 2px solid #006DBF;
+  border-radius: 25px;
+  margin: 5%;
+}
+.statement {
+  color: #444;
+  padding: 10px;
 }
