@@ -127,6 +127,9 @@ span {
   color: #444;
   padding: 10px;
 }
+.fadein {
+  opacity: 0;
+}
 
 /*Footer*/
 .footer {
