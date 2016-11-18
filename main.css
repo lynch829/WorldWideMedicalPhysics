@@ -42,8 +42,8 @@ img {
   padding: 0;
 }
 .nav li {
-  border-bottom: 1px solid #5d7baf;
-  padding: 5px 0;
+  border-bottom: 1px solid #4067aa;
+  transition: 0.3s ease-in-out;
 }
 .nav li:last-child{
   border-bottom: none;
@@ -54,6 +54,8 @@ img {
 
 .nav a {
   color: #fff;
+  display: block;
+  padding: 5px 0;
   text-decoration: none;
 }
 
