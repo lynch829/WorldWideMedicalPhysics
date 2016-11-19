@@ -146,6 +146,23 @@ span {
 
 
 /*Begin style for larger screens*/
-@media screen and (min-width: 451px) {
-  
+@media screen and (min-width: 500px) {
+  .hero {
+    height: auto;
+    position: relative;
+  }
+
+
+  .nav li {
+    display: inline-block;
+    padding: 0 1em;
+  }
+
+  .main {
+    margin: auto;
+    padding: auto;
+  }
+  .banner {
+    padding-top: 40px;
+  }
 }
