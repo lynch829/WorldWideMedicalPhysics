@@ -59,12 +59,14 @@ img {
 }
 .nav li {
   border-bottom: 1px solid #4067aa;
+  margin: 0;
   transition: 0.3s ease-in-out;
 }
 .nav li:last-child{
   border-bottom: none;
 }
-.nav ul li:hover {
+.nav ul li:hover,
+.active {
   background: #4d8dbd;
 }
 
@@ -77,13 +79,19 @@ img {
 
 /* Banner */
 .banner {
+  display: flex;
   padding-top: 150px;
+  width: 100%;
 }
 
 /*Services*/
 .services {
   color: #333;
   margin-bottom: 10px;
+  width: 100%;
+}
+.service-header {
+
 }
 .service-header h4{
   background-color: rgba(0, 0, 0, 0.6);
@@ -128,7 +136,7 @@ span {
   margin: 5%;
 }
 .statement {
-  color: #444;
+  color: #333;
   padding: 10px;
 }
 .fadein {
@@ -146,10 +154,10 @@ span {
 
 
 /*Begin style for larger screens*/
+/*Start with medium devices such as small tablets*/
 @media screen and (min-width: 500px) {
   .hero {
-    height: auto;
-    position: relative;
+
   }
 
 
@@ -158,11 +166,14 @@ span {
     padding: 0 1em;
   }
 
-  .main {
-    margin: auto;
-    padding: auto;
-  }
+
   .banner {
-    padding-top: 40px;
+    padding-top: 20px;
   }
+}
+
+/*Style for larger tablets and small browser viewports*/
+@media screen and (min-width: 650px) {
+
+
 }
